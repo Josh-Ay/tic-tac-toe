@@ -66,6 +66,7 @@ class Brain:
             return False, "none"
 
     def display_winner(self, marker_to_check, winning_marker):
+        """Displays the winner if any"""
         self.winner = winning_marker
 
         if marker_to_check == winning_marker:
